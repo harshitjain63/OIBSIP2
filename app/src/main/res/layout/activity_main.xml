@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#AEE16E51"
+    tools:context=".MainActivity">
+
+<Chronometer
+    android:id="@+id/chronometer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_margin="10dp"
+        android:onClick="startChronometer"
+        android:backgroundTint="#DD2C00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:layout_margin="10dp"
+        android:onClick="stopChronometer"
+        android:backgroundTint="#DD2C00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_margin="10dp"
+        android:onClick="resetChronometer"
+        android:backgroundTint="#DD2C00"/>
+
+
+</LinearLayout>
